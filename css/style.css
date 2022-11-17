@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+header .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+header img{
+    height: auto;
+    max-width: 30%;
+}
+#show-case{
+    background: url('../img/pexels-tirachard-kumtanom-733856.jpg');
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#show-case .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.788);
+    padding: 50px;
+    border-radius: 40px;
+    color: white;
+}
+.text h2{
+    text-transform: capitalize;
+}
+.departments{
+    margin: 30px 50px;
+}
+.departments h4{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+.departments .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.department{
+    border: 2px solid green;
+    margin: 0 100px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 1px 0px 5px 1px #00000042;
+    height: 370px;
+    margin: 0px 30px;
+}
+.department h5{
+    text-transform: uppercase;
+    color: green;
+    font-size: 18px;
+}
+.department p{
+    margin: 10px 0px;
+}
+.department button {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    padding: 10px ;
+}
+.department button a{
+    text-decoration: none;
+    color: white;
+}
+.departments-mobile{
+    display: none;
+}
+
+@media(max-width: 425px){
+    header img{
+        max-width: 50%;
+    }
+    #show-case .text{
+        text-align: center;
+        margin: 0px 30px;
+    }
+    .departments{
+        display: none;
+    }
+    .departments-mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .departments-mobile h4{
+        color: green;
+        text-transform: uppercase;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .department{
+        margin: 10px 30px;
+        height: auto;
+    }
+}
