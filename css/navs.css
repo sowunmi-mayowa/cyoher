@@ -37,6 +37,7 @@ img{
     border: 2px solid green;
     border-radius: 30px;
     display: flex;
+    margin: 10px 50px;
 }
 .lecturer .content{
     padding: 10px;
@@ -59,10 +60,11 @@ img{
     .lecturer{
         flex-direction: column;
         flex-wrap: nowrap;
+        margin: 10px 0px;
     }
-    .middle{
+    /* .middle{
         margin: 20px 0px;
-    }
+    } */
     .container{
         margin: 10px 30px;
     }

@@ -4,6 +4,10 @@ const akoja = document.querySelector('.akoja');
 const noah = document.querySelector('.noah');
 const makanju = document.querySelector('.makanju');
 const adebowale = document.querySelector('.adebowale');
+const alokun = document.querySelector('.alokun');
+const coker = document.querySelector('.coker');
+const komolafe = document.querySelector('.komolafe');
+const adeosun = document.querySelector('.adeosun');
 
 aiyeleye.addEventListener('click', () => {
     Swal.fire({
@@ -45,5 +49,32 @@ adebowale.addEventListener('click', () => {
         icon: 'info',
         title: "ADEBOWALE OLALEKAN JIMI",
         text: 'Adebowale, Olalekan holds first and second degrees in Food Science and Technology from the Federal University of Agriculture, Abeokuta. he joined the Federal Polytechnic, Ilaro as Lecturer I in the Department of Food Technology. He was appointed as the Departmental Examination Officer, a post he held for 8 years without any form of misconduct. As a lecturer, he was involved in teaching, supervising students’ projects and research. He has been a participant of the Step-B World Bank Project for the upgrading of facilities in Food Processing and Engineering workshops. He also participated in some TETFUND-sponsored projects in the department. He is a member of the Nigerian Institute of Food Science and Technology (NIFST) and the South African Association of Food Science and Technology (SAAFoST). He has many publications in peer-reviewed journals both in Nigeria and overseas. He is a reviewer of some journals. Presently, he is a Doctoral candidate at the University of Pretoria, South Africa.'
+    });
+})
+alokun.addEventListener('click', () => {
+    Swal.fire({
+        icon: 'info',
+        title: "ALOKUN, OMOTAYO ADERONKE",
+        text: 'Omotayo Aderonke Alokun, is a young, vibrant, hardworking and versatile a graduate of Federal University of Technology, Akure, Ondo State where she obtain her 1st and 2nd Degree (B.Tech and M.Tech in Food Science and Technology). She is a lecturer of Federal Polytechnic Ilaro, in the department of Food Technology in the School of Pure and Applied Sciences, where she lectures student on courses like Food Plant Sanitation and Design, Processing and Preservation of Plant Product, Processing and Preservation of Animal product, Food Analysis I & II, Food Packaging, Food Science and Nutrition just to mention few, she has also supervised project and seminars undertaken by student. She’s passionate about her research and product development so as to reduce the post-harvest loss of our foods due to improper handling which has led to food insecurity in our country the world at lager. Also to impact the world positively by continuing developing our indigenous food and improving on agricultural produce through research, develop machineries, improve our indigenous snack and candies, enlighten her community, Africa and the world. A member of Nigeria Institute of Food Science and Technology (NIFST) and Organisation for Women in Science for the Developing World (OWSD)'
+    });
+})
+coker.addEventListener('click', () => {
+    Swal.fire({
+        icon: 'info',
+        title: 'Femi Coker is a young, vibrant, versatile Lecturer, of The Federal Polytechnic Ilaro, in the department of Food Technology in the school of Pure and Applied Sciences, where he lectures students on courses like Food Chemistry, Food Biochemistry, Food Plant Sanitation and design, Food and Nutrition, Food Packaging, Cereal Technology, Food Quality Control and Statistics and Food Quality Control and Analysis just to mention a few. Due to his passion and ardor for a sustainable food security system and the immeasurable post-harvest loss of our local food resources causing food insecurity in our world at large, he majors in Food processing and storage technology through food product development. Femi is a thorough scientist with good communication skills who passes his message to his listeners in a more simple and comprehensible manner. His experience spans over a wide range of Food Science and Technology field with up to date knowledge of events. He’s a member of HACCP team that developed HACCP documents for cassava based food products under the EU sponsored research. A member of Nigerian Institute Food Science and Technologists (NIFST), International Union of Food Science and Technology (IUFosT), Nigerian  Institute of Management (NIM) and a student member of American Society for Quality (ASQ). He is a regular attendee of local and international conferences and workshops, he is a motivator. He is married to Mrs. Oluwafunmbi J. Coker with two children.Phone: +2348035720974Email:coker@federalpolyilaro.edu.ng, cokerjeremiah@gmail.com'
+    });
+})
+komolafe.addEventListener('click', () => {
+    Swal.fire({
+        icon: 'info',
+        title: 'KOMOLAFE, OLAKUNLE MUYIWA',
+        text: 'Komolafe Olakunle holds a Bachelor of Technology degree in Food Engineering from Ladoke Akintola University of Technology, Ogbomoso. He joined the Federal Polytechnic, Ilaro as an Assistant Lecturer in the Department of Food Technology in 2014. He has served in various departmental and institutional committees, delivering exemplary performances. As an academic staff, he has supervised various student projects, with particular interests in design and fabrication of food processing equipment. He is a professional member of the Nigerian Institute of Food Science and Technology (NIFST).'
+    });
+})
+adeosun.addEventListener('click', () => {
+    Swal.fire({
+        icon: 'info',
+        title: 'ADEOSUN, BUKOLA OMOZELE',
+        text: 'Adeosun Omozele Bukola is a Technologist in the Department of Food Technology Federal Polytechnic, Ilaro Ogun state. She Obtained her Higher National Diploma (HND) in Food Technology from Federal Polytechnic Ilaro in (2011). She also holds B.sc and M.sc degree in Microbiology from the Crescent University Abeokuta and University of Ibadan, Ibadan respectively.She teaches practical related courses such as Food Processing and Preservation, Food Packaging, Canning Technology, Food Science and Nutrition, Product Development e.t.c.She also assist in on-going research projects which is done under supervision'
     });
 })
