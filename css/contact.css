@@ -1,0 +1,46 @@
+#form{
+    background: url('../img/contact.jpg'), red;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+input{
+    margin-top: 10px;
+    outline: none;
+    border: 2px solid white;
+    width: 400px;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+input[type="submit"]{
+    background: white;
+    color: black;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+input[type="submit"]:hover{
+    color: white;
+    background: none;
+    border: 2px solid white;
+    transform: scale(1.1);
+}
+textarea{
+    margin-top: 10px;
+    width: 350px;
+    border-radius: 5px;
+    outline: none;
+}

@@ -89,6 +89,8 @@ header img{
     background-position: center;
     background-size: cover;
     height: 80vh;
+    background-repeat: no-repeat;
+    margin-top: 20px;
 }
 .contact .content{
     color: white;
@@ -99,7 +101,7 @@ header img{
 }
 
 .content p{
-    font-size: 30px;
+    font-size: 20px;
     letter-spacing: 2px;
 }
 .content button{
@@ -118,6 +120,13 @@ header img{
     transform: scale(1.1);
     border: none;
     color: black;
+}
+.content button a{
+    text-decoration: none;
+    color: white;
+}
+.content button a:hover{
+    counter-reset: black;
 }
 
 @media(max-width: 600px){

@@ -116,7 +116,7 @@
             <p>Do you need guidance
             </p>
             <div>
-                <button>contact us</button>
+                <button><a href="contact.php">contact us</a></button>
             </div>
         </div>
     </div>
